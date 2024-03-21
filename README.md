@@ -59,3 +59,6 @@ Ensure to replace `best.pt` with the actual name of your best-trained model weig
 ## Conclusion
 
 By following these steps, you should have successfully trained a custom YOLOv5 model for pedestrian and vehicle detection using transfer learning. Adjustments can be made to the parameters and dataset labels as needed for your specific use case.
+
+## Reference
+Please Visit this website where I got all of my info to train Yolov5 on myown data : https://kikaben.com/yolov5-transfer-learning-dogs-cats/
