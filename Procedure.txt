@@ -1,0 +1,17 @@
+1. Downloading Image from OpenImages plateform by Google
+   oi_download_dataset --base_dir download --csv_dir download --labels Car Bicycle Person Truck Bus Motorcycle --format darknet --limit 500
+
+2. Do Some Data Preparation-----> datapreparation.ipynb
+
+3. Cloning Yolov5 model from github----> git clone https://github.com/ultralytics/yolov5
+
+4. installing requirements ----> pip install -r yolov5/requirements.txt
+
+5.  Write Custom model.yaml file for custom dataset training
+
+5. Train model using cmd command
+---> python yolov5/train.py --data model.yaml --weights yolov5s.pt --epochs 15 --batch 8 --freeze 10
+
+6. Validate Trained Model using cmd
+---> python yolov5/val.py --data model.yaml --weights yolov5/runs/train/exp/weights/best.pt
+

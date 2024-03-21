@@ -1,0 +1,9 @@
+# Dataset paths relative to the yolov5 folder
+train: ../database/images/train
+val:   ../database/images/val
+test:  ../database/images/test
+
+# Number of classes
+nc: 6
+
+names: ['car', 'bicycle','pedestrian','truck','bus','motorcycle']
